@@ -26,7 +26,7 @@ classpath 'com.google.gms:google-services:2.0.0-alpha3'
 - MainActivity.java Replace :
 ```javascript
 private static final String GCM_SENDER_ID = "SENDER ID dari API GCM"; //apabila lupa bisa dilihat [disini](https://console.developers.google.com/project)
-private static final String WEB_SERVER_URL = "URL SERVER";
+private static final String WEB_SERVER_URL = "URL_SERVER/register_user.php";
 ```
 - Apabila aplikasi android sudah berjalan klik tombol register ke server untuk melakukan registerDeviceID terhadap API GCM dan phpserver (server pihak ke tiga)
 - Untuk melakukan pengiriman notifikasi dari server, aplikasi client harus dalam posisi idle
