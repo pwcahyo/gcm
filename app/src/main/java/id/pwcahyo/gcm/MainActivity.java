@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private static final String PREF_GCM_REG_ID = "PREF_GCM_REG_ID";
     private SharedPreferences prefs;
     // Your project number and web server url. Please change below.
-    private static final String GCM_SENDER_ID = "844112970816";
-    private static final String WEB_SERVER_URL = "http://phpserver-pwcahyo.rhcloud.com/register_user.php";
+    private static final String GCM_SENDER_ID = "SENDER_ID";
+    private static final String WEB_SERVER_URL = "URL_SERVER/register_user.php";
 
     GoogleCloudMessaging gcm;
     Button registerBtn;
